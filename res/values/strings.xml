@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">HAD Nabız Takip</string>
+    <string name="ble_not_supported">BLE desteklenmiyor</string>
+    <string name="label_data">Veri:</string>
+    <string name="label_device_address">Cihaz adresi:</string>
+    <string name="label_state">Durum:</string>
+    <string name="no_data">---</string>
+    <string name="connected">Bağlı</string>
+    <string name="disconnected">Bağlı değil</string>
+    <string name="title_devices">Cihaz Ara</string>
+    <string name="error_bluetooth_not_supported">Bluetooth desteklenmiyor.</string>
+    <string name="unknown_device">bilinmeyen cihaz</string>
+    <string name="unknown_characteristic">bilinmeyen karakteristik</string>
+    <string name="unknown_service">bilinmeyen servis</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Bağlan</string>
+    <string name="menu_disconnect">Bağlantıyı bitir</string>
+    <string name="menu_scan">Ara</string>
+    <string name="menu_stop">Dur</string>
+    <string name="start_reading">Başla</string>
+    <string name="stop_reading">Dur</string>
+    <string name="store_online">Dropbox</string>
+    <string name="menu_dropbox">Dropbox a yükle</string>
+    <string name="menu_start_logging">Kaydetmeye Başla</string>
+    <string name="menu_stop_logging">Kaydetmeyi Durdur</string>
+    <string name="menu_emergency">Acil Durum</string>
+    <string name="bos"></string>
+    <string name="ac">Aç</string>
+    <string name="mBtnLogin">Giris</string>
+    <string name="mBtnSignup">Kayit</string>
+    <string name="menu_logout">Çıkış</string>
+    <string name="menu_location">Konum Servisi</string>
+
+    <!-- login page -->
+    <string name="lblUsername_login">Kullanici Adi:</string>
+    <string name="lblPassword_login">Sifre:</string>
+    <string name="chk_remember">Beni Hatırla</string>
+    <string name="btnLogin_login">Giris yap</string>
+
+    <!-- signup page -->
+    <string name="lblUsername_signup">Kullanici Adi:</string>
+    <string name="lblPassword_signup">Sifre:</string>
+    <string name="lblFirstname_signup">Ad:</string>
+    <string name="lblLastname_signup">Soyad:</string>
+    <string name="lblEmail_signup">E-Posta:</string>
+    <string name="lblGender_signup">Cinsiyet:</string>
+    <string name="female">Kadın</string>
+    <string name="male">Erkek</string>
+    <string name="lblBirthDate_signup">Dogum Tarihi:</string>
+    <string name="lblHeight_signup">Kilo:</string>
+    <string name="lblWeight_signup">Boy:</string>
+    <string name="btnSave_signup">Kayit ol</string>
+    <string name="title_activity_emergency">Acil Durum Numaraları</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tel1">Tel 1:</string>
+    <string name="tel2">Tel 2:</string>
+    <string name="tel3">Tel 3:</string>
+    <string name="btnSavePhones">Ekle</string>
+    <string name="hint_phone">Telefon Numarası</string>
+    <string name="check_text">numara</string>
+    <string name="btnAddPhone">Ekle</string>
+    <string name="txtAddedPhones">Eklenmiş Numaralar</string>
+    <string name="phones_refresh">Yenile</string>
+    <string name="waiting_for_location_">Konum belirleniyor...</string>
+
+</resources>

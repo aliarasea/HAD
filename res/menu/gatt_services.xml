@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:checkable="false"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="@string/bos"/>
+    <item
+        android:id="@+id/menu_connect"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_connect"/>
+    <item
+        android:id="@+id/menu_start_logging"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_start_logging"/>
+    <item
+        android:id="@+id/menu_dropbox"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_dropbox"/>
+    <item
+        android:id="@+id/menu_stop_logging"
+        android:orderInCategory="102"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_stop_logging"/>
+    <item
+        android:id="@+id/menu_disconnect"
+        android:orderInCategory="103"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_disconnect"/>
+    <item
+        android:id="@+id/menu_emergency"
+        android:orderInCategory="104"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_emergency">
+    </item>
+    <item
+        android:id="@+id/menu_location"
+        android:orderInCategory="105"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_location">
+    </item>
+    <item
+        android:id="@+id/menu_logout"
+        android:orderInCategory="106"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_logout">
+    </item>
+
+</menu>
