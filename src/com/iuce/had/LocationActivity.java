@@ -103,8 +103,10 @@ public class LocationActivity extends MapActivity implements LocationListener {
 			mapController.animateTo(point);
 
         	if(!ServiceConstant.p.isEmpty())
-                sendSMS();
-            	finish();
+        	{ 
+        		sendSMS();
+        		super.onPause();
+        	}
 		}
 		catch (IOException e) 
 		{

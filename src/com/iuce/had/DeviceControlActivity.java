@@ -410,6 +410,7 @@ public class DeviceControlActivity extends Activity {
 		} else if (item.getItemId() == R.id.menu_logout) {
 			clearUserToken();
 			Intent intent = new Intent(DeviceControlActivity.this, MainActivity.class);
+			mBluetoothLeService.disconnect();
 			startActivity(intent);
 		}
 		else if(item.getItemId() == R.id.menu_location)
@@ -458,6 +459,7 @@ public class DeviceControlActivity extends Activity {
 				{
 					Intent intent = new Intent(DeviceControlActivity.this, LocationActivity.class);
 					startActivity(intent);
+					mBluetoothLeService.disconnect();
 					finish();
 				}
 

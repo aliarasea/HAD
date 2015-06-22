@@ -196,8 +196,7 @@ public class BluetoothLeService extends Service {
 
 	public boolean connect(final String address) {
 		if (mBluetoothAdapter == null || address == null) {
-			Log.w(TAG,
-					"BluetoothAdapter not initialized or unspecified address.");
+			Log.w(TAG, "BluetoothAdapter not initialized or unspecified address.");
 			return false;
 		}
 
@@ -205,8 +204,7 @@ public class BluetoothLeService extends Service {
 		if (mBluetoothDeviceAddress != null
 				&& address.equals(mBluetoothDeviceAddress)
 				&& mBluetoothGatt != null) {
-			Log.d(TAG,
-					"Trying to use an existing mBluetoothGatt for connection.");
+			Log.d(TAG, "Trying to use an existing mBluetoothGatt for connection.");
 			if (mBluetoothGatt.connect()) {
 				mConnectionState = STATE_CONNECTING;
 				return true;
@@ -237,7 +235,8 @@ public class BluetoothLeService extends Service {
 		mBluetoothGatt.disconnect();
 	}
 
-	public void close() {
+	public void close() 
+	{
 		if (mBluetoothGatt == null) {
 			return;
 		}
